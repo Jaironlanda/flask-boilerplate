@@ -1,0 +1,7 @@
+# Flask
+SECRET_KEY = "super_secret_key"
+WTF_CSRF_SECRET_KEY = "super_secret_key_2123123"
+
+# Database
+PROD_DATABASE_URI = "postgresql://<username>:<pswd>@127.0.0.1/<dbname>"
+DEV_DATABASE_URI = "postgresql://<username>:<pswd>@127.0.0.1/db-name"
